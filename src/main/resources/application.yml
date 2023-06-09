@@ -4,7 +4,9 @@ server:
 spring:
   application:
     name: eureka-server
-
+  cloud:
+    uri: http://127.0.0.1:8888
+    name: jimart
 eureka:
   client:
     register-with-eureka: false
