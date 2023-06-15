@@ -1,0 +1,4 @@
+spring:
+  cloud:
+    uri: http://jimart-config-service:8888
+    name: jimart
